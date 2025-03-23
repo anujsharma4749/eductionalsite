@@ -1,0 +1,98 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBHTECH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+        integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="IMAGES/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> <!--to hide the menu in moblie view of website-->
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOGS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!--to show the menu in moblie view of website on clicking the menu icon on the website to access the menu -->
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+    <!-----------about us content-------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The world's largest online educator</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia dolor, consequuntur iusto vitae eos
+                    velit odit qui fugit rerum, dignissimos ex impedit, autem quis vero adipisci. Amet, delectus hic!
+                    Ratione facere tenetur modi, eligendi quia praesentium nihil excepturi, obcaecati, odio laudantium
+                    reprehenderit vero animi nemo. Quasi labore exercitationem animi maiores, ipsa, dicta soluta eaque
+                    quisquam delectus assumenda dolorum? Aperiam quos aliquam repellendus expedita rerum alias molestias
+                    nobis? Ipsam voluptas molestiae aut placeat non, a aliquid, nulla tempora doloremque harum facere
+                    velit ea suscipit pariatur repellat iure odit veritatis laudantium tenetur cupiditate. Distinctio
+                    consequuntur eos earum, illo libero illum beatae. Illo dolore a pariatur quod sapiente quas, aliquam
+                    animi id totam illum qui sed aut dolorem voluptatibus atque distinctio eos itaque placeat
+                    dignissimos iure voluptates quia accusamus doloremque optio! Earum labore, magnam cupiditate
+                    voluptatem velit aut, voluptate quisquam soluta tempora beatae aspernatur sequi recusandae sint quos
+                    fugit! Fugit dolor alias ipsum reiciendis aliquam esse ab deserunt, minus a sed quo laboriosam
+                    voluptatibus adipisci totam, vero quae doloribus. Pariatur, iste nobis fugit, molestias corrupti
+                    labore nemo recusandae soluta, rem blanditiis placeat dicta perspiciatis maxime velit. Laborum saepe
+                    temporibus soluta, voluptatem ad minus magni, dignissimos architecto consectetur doloremque quidem
+                    reiciendis dolorem, asperiores natus!</p>
+                    <a href=""class="hero-btn red-btn">EXPLORE MORE</a>
+            </div>
+            <div class="about-col">
+                <img src="IMAGES/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--------footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe fugiat nam modi repudiandae eligendi, quam<br>
+            dolores tempore, corrupti ea ex neque? Doloremque, error reiciendis optio beatae consequatur magni et omnis.
+        </p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-----------------Javascript for toggle menu----------->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

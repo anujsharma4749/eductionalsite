@@ -1,0 +1,129 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBHTECH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+        integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="IMAGES/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> <!--to hide the menu in moblie view of website-->
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOGS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!--to show the menu in moblie view of website on clicking the menu icon on the website to access the menu -->
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+    <!-----------courses----------->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>basic</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia cum ex suscipit quos alias omnis
+                    fugiat? Impedit placeat consequatur praesentium expedita unde eaque, vero architecto quos totam,
+                    harum animi ad.</p>
+            </div>
+            <div class="course-col">
+                <h3>intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia cum ex suscipit quos alias omnis
+                    fugiat? Impedit placeat consequatur praesentium expedita unde eaque, vero architecto quos totam,
+                    harum animi ad.</p>
+            </div>
+            <div class="course-col">
+                <h3>advance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia cum ex suscipit quos alias omnis
+                    fugiat? Impedit placeat consequatur praesentium expedita unde eaque, vero architecto quos totam,
+                    harum animi ad.</p>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-----------facilities----------->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="IMAGES/library.png">
+                <h3>World Class library</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="IMAGES/basketball.png">
+                <h3>World class playground</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="IMAGES/cafeteria.png">
+                <h3>World class cafeteria</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing</p>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    
+
+
+
+
+    <!--------footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe fugiat nam modi repudiandae eligendi, quam<br>
+            dolores tempore, corrupti ea ex neque? Doloremque, error reiciendis optio beatae consequatur magni et omnis.
+        </p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-----------------Javascript for toggle menu----------->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
